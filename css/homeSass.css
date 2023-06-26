@@ -1,0 +1,633 @@
+@charset "UTF-8";
+/* line 1, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+* {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* line 8, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+header {
+  background: #212121;
+  height: 55px;
+}
+
+/* line 11, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.container {
+  max-width: 1140px;
+}
+
+/* line 13, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.container .menu_list {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 70px;
+}
+
+/* line 17, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.container .menu_list .list_item {
+  border-right: dotted 2px #000;
+}
+
+/* line 19, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.container .menu_list .list_item_link {
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  padding-right: 28px;
+}
+
+/* line 24, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.container .menu_list .list_item_link:nth-child(6) {
+  border-right: none;
+}
+
+/* line 26, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.subheader {
+  height: 87px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 33, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.subheader_logo {
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 14px;
+  margin-left: 33px;
+}
+
+/* line 40, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.subheader_logo img {
+  position: absolute;
+  left: 15px;
+}
+
+/* line 43, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.subheader_official {
+  font-weight: 100;
+  font-size: 13px;
+}
+
+/* line 46, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.subheader_call {
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 24px;
+}
+
+/* line 50, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.subheader_phone {
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+}
+
+/* line 54, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.subheader button {
+  font-weight: 400;
+  font-size: 14px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  width: 172px;
+  height: 46px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 19px;
+  cursor: pointer;
+}
+
+/* line 66, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.companyInformation {
+  height: 800px;
+  width: 100%;
+  background: url(../img/main.png) center center/cover no-repeat;
+}
+
+/* line 70, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.companyInformation .promo {
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 74, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.companyInformation .promo h1 {
+  font-weight: 900;
+  font-size: 60px;
+  margin: 145px 0 5px;
+  text-transform: uppercase;
+}
+
+/* line 79, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.companyInformation .promo .subtitle {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+/* line 84, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.companyInformation .promo .text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* line 88, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.companyInformation .promo .text_promo {
+  margin-bottom: 40px;
+}
+
+/* line 90, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.companyInformation .promo button {
+  width: 259px;
+  height: 63px;
+  color: #fff;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 115px 186px;
+}
+
+/* line 101, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.advantages {
+  min-height: 850px;
+  padding: 18px 0 64px 0;
+}
+
+/* line 104, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.advantages_title {
+  text-align: center;
+}
+
+/* line 106, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.advantages_title_small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 32px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  font-size: 11px;
+  width: 113px;
+  height: 24px;
+  background-color: #000;
+}
+
+/* line 118, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.advantages_title_big {
+  font-weight: 700;
+  font-size: 38px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+/* line 124, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.advantages_item {
+  display: flex;
+  margin-top: 30px;
+}
+
+/* line 128, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.advantages_item_img {
+  width: 116px;
+  height: 116px;
+  background-color: #1EACC7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(14%);
+}
+
+/* line 137, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.advantages_item_text {
+  max-width: 370px;
+  margin-left: 25px;
+}
+
+/* line 140, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.advantages_item_text .title {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1EACC7;
+}
+
+/* line 145, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.advantages_item_text .text {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #202020;
+}
+
+/* line 150, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone {
+  min-height: 865px;
+  padding: 48px 0 77px;
+  background: url(../img/main_phone.png) center center/cover no-repeat;
+}
+
+/* line 154, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone .text {
+  font-weight: 400;
+  font-size: 17px;
+  color: #222222;
+  margin-bottom: 30px;
+}
+
+/* line 159, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item {
+  height: 280px;
+  width: 320px;
+  padding: 88px 25px 34px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 19px;
+}
+
+/* line 166, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item .circle {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 176, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item .circle:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  transform: translateY(56%);
+  height: 14px;
+  width: 2px;
+  background: #1EACC7;
+}
+
+/* line 184, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item .circle:after {
+  content: '';
+  display: block;
+  position: absolute;
+  transform: translateX(50%);
+  right: 50%;
+  width: 14px;
+  height: 2px;
+  background: #1EACC7;
+}
+
+/* line 194, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item .text {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+/* line 200, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item_0 {
+  background: url(../img/icons/phone_item/item_1.jpg) center center/cover no-repeat;
+}
+
+/* line 202, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item_1 {
+  background: url(../img/icons/phone_item/item_2.jpg) center center/cover no-repeat;
+}
+
+/* line 204, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item_2 {
+  background: url(../img/icons/phone_item/item_3.jpg) center center/cover no-repeat;
+}
+
+/* line 206, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item_3 {
+  background: url(../img/icons/phone_item/item_4.jpg) center center/cover no-repeat;
+}
+
+/* line 208, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item_4 {
+  background: url(../img/icons/phone_item/item_5.jpg) center center/cover no-repeat;
+}
+
+/* line 210, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.phone_item_5 {
+  background: url(../img/icons/phone_item/item_6.jpg) center center/cover no-repeat;
+}
+
+/* line 212, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car {
+  min-width: 900px;
+}
+
+/* line 214, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_1 {
+  position: relative;
+  padding: 57px 0 0 0;
+  height: 503px;
+  background: #070716;
+  text-align: center;
+}
+
+/* line 220, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_1 .advantages_title_small {
+  background-color: #fff;
+  color: #070716;
+}
+
+/* line 223, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_1 .advantages_title_big {
+  color: #fff;
+}
+
+/* line 225, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_1 .text {
+  font-size: 17px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+/* line 229, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_1 .semicircle {
+  width: 584px;
+  height: 268px;
+  position: absolute;
+  bottom: 0%;
+  transform: translateX(50%);
+  right: 50%;
+  background-color: #1CA8C3;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+
+/* line 238, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_1 .semicircle .title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 60px;
+  margin: 20px 0 0 0;
+}
+
+/* line 243, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_1 .semicircle .subtitle {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* line 247, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_2 {
+  height: 397px;
+  text-align: center;
+  background: url(../img/main_phone.png) center center/cover no-repeat;
+}
+
+/* line 251, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_2 img {
+  position: absolute;
+  display: block;
+  transform: translate(50%, -133px);
+  right: 50%;
+}
+
+/* line 258, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.car .section_2 .car_text {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  transform: translateY(210px);
+}
+
+/* line 263, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions {
+  min-height: 917px;
+  padding: 68px 0 87px 0;
+}
+
+/* line 266, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions .row {
+  margin-top: 37px;
+}
+
+/* line 268, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions .advantages_title_small {
+  text-align: center;
+}
+
+/* line 270, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions_item {
+  margin-bottom: 61px;
+}
+
+/* line 272, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions_item .title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #1CA8C3;
+  margin-top: 20px;
+}
+
+/* line 277, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions_item .addition {
+  font-size: 17px;
+  font-weight: 300;
+  color: #1CA8C3;
+  width: 450px;
+}
+
+/* line 283, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions_item ul {
+  width: 505px;
+}
+
+/* line 285, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions_item ul li {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #222222;
+  display: flex;
+  margin-top: 10px;
+}
+
+/* line 292, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions_item ul li::before {
+  content: '';
+  display: block;
+  margin: 0 12px 0 18px;
+  width: 21px;
+  height: 20px;
+  background: url(../img/icons/check_blue.jpg) center center/cover no-repeat;
+  transform: translateY(12%);
+}
+
+/* line 301, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions_item.red {
+  margin-bottom: 0;
+}
+
+/* line 303, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions_item.red .title {
+  color: #FF5656;
+}
+
+/* line 307, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.conditions_item.red ul li::before {
+  background: url(../img/icons/check_red.jpg) center center/cover no-repeat;
+}
+
+/* line 309, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.world {
+  height: 716px;
+  padding: 48px 0px 50px 0;
+  background: url(../img/world.png) center no-repeat, linear-gradient(#080816, #080816);
+  text-align: center;
+  position: relative;
+}
+
+/* line 316, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.world .advantages_title_small {
+  background-color: #fff;
+  color: #070716;
+}
+
+/* line 319, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.world .advantages_title_big {
+  color: #fff;
+  margin-bottom: 17px;
+}
+
+/* line 322, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.world .advantages_title .text {
+  color: #fff;
+}
+
+/* line 324, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+.world .cities {
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+/* line 334, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer {
+  height: 155px;
+  position: relative;
+}
+
+/* line 337, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav {
+  margin: 0 auto;
+}
+
+/* line 339, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav .language {
+  text-align: center;
+  font-weight: 400;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  margin-top: 18px;
+}
+
+/* line 346, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav .strip {
+  width: 300px;
+  height: 7px;
+  background-color: #1FBAD6;
+  margin: 14px auto 0;
+}
+
+/* line 351, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+/* line 356, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav ul li {
+  margin-right: 45px;
+}
+
+/* line 358, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav ul li:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+/* line 360, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav ul li a {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #070716;
+}
+
+/* line 365, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav .list_item2 {
+  margin-top: 15px;
+}
+
+/* line 367, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav .list_item2 li {
+  margin-right: 23px;
+}
+
+/* line 369, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .footer_nav .list_item2 li a {
+  font-size: 11px;
+  color: #999999;
+}
+
+/* line 372, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .store {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5%;
+}
+
+/* line 377, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .socialNetwork {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5%;
+}
+
+/* line 382, ../../Users/lozin/OneDrive/Рабочий стол/HTML AND CSS/Практическая 2/sass/homeSass.sass */
+footer .socialNetwork a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: #070716;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=homeSass.css.map */

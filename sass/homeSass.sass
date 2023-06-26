@@ -1,0 +1,394 @@
+*
+    font-family: 'Roboto';
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    text-decoration: none
+    list-style-type: none
+header
+    background: #212121;
+    height: 55px
+.container
+    max-width: 1140px
+    .menu_list
+        display: flex
+        justify-content: space-between
+        padding: 17px 70px
+        .list_item
+            border-right: dotted 2px #000
+            &_link
+                color: #fff
+                font-weight: 300;
+                font-size: 15px;
+                padding-right: 28px 
+                &:nth-child(6)
+                    border-right: none
+.subheader
+    height: 87px
+    background-color: rgba(0,0 ,0, .6)
+    color: #fff
+    width: 100%
+    position: absolute
+    z-index: 1
+    &_logo
+        display: inline-block
+        font-size: 30px
+        color: #fff
+        font-weight: 300
+        margin-top: 14px
+        margin-left: 33px
+        img
+            position: absolute
+            left:  15px
+    &_official
+        font-weight: 100;
+        font-size: 13px;
+    &_call
+        font-weight: 300;
+        font-size: 12px;
+        margin-top: 24px
+    &_phone
+        font-weight: 400;
+        font-size: 22px;  
+        color: #fff 
+    button
+        font-weight: 400;
+        font-size: 14px;
+        background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+        box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        width: 172px;
+        height: 46px;
+        color: #fff
+        text-transform: uppercase
+        margin-top: 19px
+        cursor: pointer
+.companyInformation
+    height: 800px
+    width: 100%
+    background: url(../img/main.png) center (center/cover) no-repeat
+    .promo
+        justify-content: center
+        text-align: center
+        color: #fff
+        h1
+            font-weight: 900;
+            font-size: 60px;
+            margin: 145px 0 5px
+            text-transform: uppercase
+        .subtitle
+            font-weight: 500;
+            font-size: 35px;
+            margin-bottom: 16px
+            text-transform: uppercase
+        .text
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            &_promo
+                margin-bottom: 40px
+        button
+            width: 259px;
+            height: 63px;
+            color: #fff
+            background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+            box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+            font-weight: 400;
+            font-size: 18px;
+            cursor: pointer
+            margin: 115px 186px
+.advantages
+    min-height: 850px
+    padding: 18px 0 64px 0
+    &_title
+        text-align: center
+        &_small
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px auto 32px
+            text-transform: uppercase
+            color: #fff
+            font-weight: 400;
+            font-size: 11px;
+            width: 113px;
+            height: 24px;
+            background-color: #000
+        &_big
+            font-weight: 700;
+            font-size: 38px;
+            color: #222222; 
+            text-transform: uppercase
+
+    &_item 
+        display: flex
+        margin-top: 30px
+        
+        &_img
+            width: 116px
+            height: 116px
+            background-color: #1EACC7
+            border-radius: 50%
+            display: flex
+            align-items: center
+            justify-content: center
+            transform: translateY(14%)
+        &_text
+            max-width: 370px
+            margin-left: 25px
+            .title
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 21px;
+                color: #1EACC7;
+            .text
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 21px;
+                color: #202020;
+.phone
+    min-height: 865px
+    padding: 48px 0 77px
+    background: url(../img/main_phone.png) center (center/cover) no-repeat
+    .text
+        font-weight: 400;
+        font-size: 17px;
+        color: #222222;
+        margin-bottom: 30px
+    &_item
+        height: 280px;
+        width: 320px;
+        padding: 88px 25px 34px
+        text-align: center;
+        position: relative
+        margin-bottom: 19px
+        .circle
+            width: 29px
+            height: 29px
+            position: absolute
+            bottom: 35px
+            left: 50%
+            transform: translateX(-50%)
+            background-color: #000
+            border-radius: 100%
+            cursor: pointer
+            &:before
+                content: ''
+                display: block
+                margin: 0 auto
+                transform: translateY(56%)
+                height: 14px
+                width: 2px
+                background: #1EACC7;
+            &:after
+                content: ''
+                display: block
+                position: absolute
+                transform: translateX(50%)
+                right: 50%
+                width: 14px
+                height: 2px
+                background: #1EACC7
+                
+        .text 
+            color: #fff
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 31px;
+            text-transform: uppercase
+        &_0
+            background: url(../img/icons/phone_item/item_1.jpg) center (center/cover) no-repeat
+        &_1
+            background: url(../img/icons/phone_item/item_2.jpg) center (center/cover) no-repeat
+        &_2
+            background: url(../img/icons/phone_item/item_3.jpg) center (center/cover) no-repeat
+        &_3
+            background: url(../img/icons/phone_item/item_4.jpg) center (center/cover) no-repeat
+        &_4
+            background: url(../img/icons/phone_item/item_5.jpg) center (center/cover) no-repeat            
+        &_5
+            background: url(../img/icons/phone_item/item_6.jpg) center (center/cover) no-repeat
+.car
+    min-width: 900px
+    .section_1
+        position: relative
+        padding: 57px 0 0 0
+        height: 503px
+        background: #070716;
+        text-align: center
+        .advantages_title_small
+            background-color: #fff
+            color: #070716;
+        .advantages_title_big
+            color: #fff
+        .text
+            font-size: 17px;
+            font-weight: 400;
+            color: #FFFFFF;
+        .semicircle
+            width: 584px;
+            height: 268px;
+            position:  absolute
+            bottom: 0%
+            transform: translateX(50%)
+            right: 50%
+            background-color: #1CA8C3
+            border-radius: 50% 50% 0 0 / 100% 100% 0 0;  
+            .title
+                color: #fff
+                font-weight: 400
+                font-size: 60px
+                margin: 20px 0 0 0
+            .subtitle
+                text-transform: uppercase
+                font-weight: 400;
+                font-size: 20px;
+    .section_2
+        height: 397px
+        text-align: center
+        background: url(../img/main_phone.png) center (center/cover) no-repeat  
+        img
+            position: absolute
+            display: block
+            // transform: translateX(50%),translateY(-133px)
+            transform: translate(50%, -133px)
+            right: 50%
+
+        .car_text
+            color: #222222
+            font-size: 17px
+            font-weight: 300
+            transform: translateY(210px)
+.conditions
+    min-height: 917px
+    padding: 68px 0 87px 0
+    .row
+        margin-top: 37px
+    .advantages_title_small
+        text-align: center
+    &_item
+        margin-bottom: 61px
+        .title
+            font-size: 22px;
+            font-weight: 400;
+            color: #1CA8C3;
+            margin-top: 20px
+        .addition
+            font-size: 17px;
+            font-weight: 300;
+            color: #1CA8C3;
+            width: 450px
+
+        ul
+            width: 505px
+            li
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 24px;
+                color: #222222;
+                display: flex
+                margin-top: 10px
+                &::before
+                    content: ''
+                    display: block
+                    margin: 0 12px 0 18px
+                    width: 21px;
+                    height: 20px;
+                    background: url(../img/icons/check_blue.jpg) center (center/cover) no-repeat  
+                    transform: translateY(12%)
+.conditions
+    &_item.red
+        margin-bottom: 0
+        .title
+            color: #FF5656
+        ul
+            li
+                &::before
+                    background: url(../img/icons/check_red.jpg) center (center/cover) no-repeat  
+.world 
+    height: 716px
+    padding: 48px 0px 50px 0
+    background: url(../img/world.png) center no-repeat,  linear-gradient(rgb(8, 8, 22), rgb(8, 8, 22)) 
+    text-align: center
+    position: relative
+    .advantages_title
+        &_small
+            background-color: #fff
+            color: #070716
+        &_big
+            color: #fff
+            margin-bottom: 17px
+        .text
+            color: #fff
+    .cities
+        font-weight: 400
+        font-size: 15px
+        text-transform: uppercase
+        color: #1FBAD6
+        position: absolute
+        bottom: 50px
+        left: 50%
+        transform: translateX(-50%)
+        cursor: pointer
+footer
+    height: 155px
+    position: relative
+    .footer_nav
+        margin: 0 auto
+        .language
+            text-align: center
+            font-weight: 400;
+            font-size: 11px
+            text-transform: uppercase;
+            color: #1FBAD6;
+            margin-top: 18px
+        .strip
+            width: 300px
+            height: 7px
+            background-color: #1FBAD6
+            margin: 14px auto 0
+        ul
+            display: flex
+            justify-content: center
+            margin-top: 32px
+            
+            li
+                margin-right: 45px
+                &:nth-last-child(1)
+                     margin-right: 0px
+                a
+                    font-weight: 300;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    color: #070716;
+        .list_item2
+            margin-top: 15px
+            li
+                margin-right: 23px
+                a
+                    font-size: 11px;
+                    color: #999999
+    .store
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: 5%
+    .socialNetwork
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: 5%
+        a
+            display: inline-block
+            width: 32px
+            height: 32px
+            background: #070716
+            border-radius: 50%
+            
+
+
+                
+
+
+
